@@ -1,11 +1,12 @@
-import Expenses from "./components/Expenses";
-import expensesData from "./components/expensesData";
+import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
+import expensesData from "./components/Expenses/expensesData";
 
-function App() {
+const App = () => {
   
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpense />
       <Expenses expenses={expensesData} />
     </div>
   );
