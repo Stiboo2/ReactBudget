@@ -1,4 +1,4 @@
-const expensesData = [
+const DUMMY_EXPENSES = [
     {
       id: 'e1',
       title: 'Toilet Paper',
@@ -20,4 +20,4 @@ const expensesData = [
     },
   ];
   
-export default expensesData;
+export default DUMMY_EXPENSES;
