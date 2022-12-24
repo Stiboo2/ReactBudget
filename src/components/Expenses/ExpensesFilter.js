@@ -1,12 +1,11 @@
 import "./ExpensesFilter.css";
 
 const ExpensesFilter = (props) => {
- // const [filteredDYear, setFilteredDate] = useState(new Date().getFullYear());
   const changeDateHandler = (event) => {
     props.onChangeFilter(event.target.value);
   };
 
-  //props.onFilterSelect(selectedDate);
+ 
   
   return (
     <div className="expenses-filter">
